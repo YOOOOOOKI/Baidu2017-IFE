@@ -1,0 +1,43 @@
+html,body
+{
+	margin: 0;
+	padding:0;
+	height: 100%;
+}
+.wrapper
+{
+	width: 840px;
+	margin: 0 auto;
+	border: 1px solid grey;
+    height: 100%;
+    position: relative;
+
+}
+.content
+{
+	background-color: #ccc;
+	width: 400px;
+	height: 200px;
+	margin: 0 auto;
+	position:absolute;
+	top: 50%;
+	margin-top: -100px;
+	left: 220px;
+}
+.yuan
+{
+	height: 50px;
+	width: 50px;
+	border-radius: 0 0 50px 0;
+	background-color: #fc0;
+}
+.yuan1
+{
+	height: 50px;
+	width: 50px;
+	background-color: #fc0;
+	border-radius: 50px 0 0 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
