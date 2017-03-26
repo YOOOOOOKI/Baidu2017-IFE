@@ -7,4 +7,6 @@
 
 [小薇学院第四次任务] (https://yooooooki.github.io/Baidu2017-IFE/CSS-HTML/4/44444.html)
 
-[小薇学院第五次任务]  (https://yooooooki.github.io/Baidu2017-IFE/CSS-HTML/5/55555.html) 
+[小薇学院第五次任务]  (https://yooooooki.github.io/Baidu2017-IFE/CSS-HTML/5/55555.html)
+
+[小薇学院第六次任务]  (https://yooooooki.github.io/Baidu2017-IFE/CSS-HTML/5/66666.html) 
