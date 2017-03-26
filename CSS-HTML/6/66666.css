@@ -1,0 +1,329 @@
+/*
+清除所有格式
+ */
+body,html,h1,p,span,head,footer,em,h2,img
+{
+	margin: 0;
+	padding:0;
+	
+
+}
+body,html
+{
+	width: 892px;
+	margin:0 auto;
+	
+	height: 1400px;
+}
+
+/*导航部分*/
+header
+{  position: relative;
+	height: 61px;
+	
+	border-bottom:: 1px solid #938e8c;
+    
+    margin-bottom: 35px;
+    font-size: 12px;
+    font-family: "黑体";
+    border-bottom: 2px solid #938e8c;
+}
+header .tupian1
+{
+	background-color: #d45d5c;
+	width: 110px;
+	height: 16px;
+	padding-top: 45px;
+    color: white;
+}
+
+header>p
+{   
+	position: absolute;
+	right:0;
+	bottom:0;
+	
+	color:#d45d5c;
+	
+	
+}
+/*主题第一部分*/
+.content1 .right
+{   
+	float: right;
+	
+	border-top: 2px solid #cc8091;
+	width: 200px;
+	height: 301px;
+	position: relative;
+	
+}
+/*
+以下为第一段右侧文字部分
+ */
+.normal
+{
+	font-family: "Microsoft Yahei";
+	font-size: 24px;
+	border-bottom: 2px solid #555553;
+	padding-top: 8px;
+	padding-bottom: 2px;
+	display: inline-block;
+}
+.grey
+{
+	font-size: 12px;
+	color: #676767;
+	font-family: "楷体";
+	padding-top: 4px;
+	padding-bottom: 1px;
+}
+.number
+{	font-family: "Microsoft Yahei";
+  	font-size: 100px;
+  	color: #75b86b;
+
+  	padding-top: 20px;
+    font-style: italic;
+  	line-height:100px;
+  	margin-left: -8px;
+
+
+  }
+  
+ .number1
+ {
+   	font-size: 55px;
+   	color: #cc8091;
+   	font-family: "Microsoft Yahei";
+ }
+ .xiaozi
+ {
+ 	position: absolute;
+ 	bottom: 0;
+ 	left: 80px;
+
+ }
+.number2
+{
+ 	font-size: 21px;
+   	color: #cc8091;
+   	font-family: "Microsoft Yahei";
+}
+.number3
+{
+	font-size: 12px;
+	color: #cc8091;
+	font-family: "Microsoft Yahei";
+}
+/*
+第三部分段落
+ */
+.content2
+{ height: 242px;
+  margin-top: 40px;
+  font-family: "Microsoft Yahei";
+  
+}
+.duan1
+{
+	float: left;
+	width: 230px;
+	
+
+
+}
+.duan2
+{   
+	width: 230px;
+	float: left;
+    
+}
+.duan3
+{  width: 180px;
+   float: left;
+   
+}
+h2
+{   display: inline-block;
+	color: #cc8091;
+	font-size: 16px;
+	border-bottom: 2px solid  #cc8091;
+}
+.meiwen
+{   opacity: 0.7;
+	margin-top: 10px;
+	font-size: 12px;
+	margin-right: 26px;
+}
+.clearfix:after {       
+    content: ".";     /*内容为“.”就是一个英文的句号而已。也可以不写。*/
+    display: block;   /*加入的这个元素转换为块级元素。*/
+    clear: both;     /*清除左右两边浮动。*/
+    visibility: hidden;      /*可见度设为隐藏。注意它和display:none;是有区别的。visibility:hidden;仍然占据空间，只是看不到而已；*/
+    line-height: 0;    /*行高为0；*/
+    height: 0;     /*高度为0；*/
+    font-size:0;    /*字体大小为0；*/
+}
+/*/*第四部分的左边**/
+.content3
+{
+	width:420px;
+	margin-bottom: 35px;
+}
+.left1
+{
+     height: 152px;
+     border-bottom:2px solid #11456b;
+}
+.wenzi1
+{
+	font:72px "Microsoft Yahei";
+	color: #75b86b;
+	
+}
+.wenzi2
+{
+	font:42px "Microsoft Yahei";
+	color:#11456b;
+}
+.left2 img
+{
+	float: right;
+	margin:22px;
+	margin-right:0;
+}
+.left2 span
+{
+	font:70px "Microsoft Yahei";
+	color: #75b86b;
+	float: left;
+}
+.left2 p
+{    
+	font:12px "Microsoft Yahei";
+	color:#767777;
+}
+.left2
+{
+	padding-top: 25px;
+	
+	padding-bottom: 38px;
+}
+/*
+右下部分
+ */
+ .right
+ {
+   float: right;
+  
+ }
+ .right img
+ {
+ 	margin-bottom: 20px;
+ }
+ .redpart
+ {
+ 	position: relative;
+ 	width: 409px;
+   height: 330px;
+   background-color: #eeedd6;
+   padding: 25px;
+
+ }
+ .xiao
+ {
+ 	font:12px "Microsoft Yahei";
+ 	color: #5a5b5b;
+ }
+ .da
+ {
+ 	font:16px "Microsoft Yahei";
+ 	color: #5a5b5b;
+ 	line-height: 47px;
+ 	letter-spacing: 0.2em;
+
+ }
+ li
+ {
+ 	list-style-image: url(sanjiao.png);
+ }
+ .sekuai
+ {
+ 	position: absolute;
+ 	bottom: 0;
+ 	left: 0;
+ 	width: 245px;
+ 	height: 144px;
+ 	background-color: #d45d5c;
+ 	color: white;
+ 	padding-top: 36px;
+ 	padding-left: 15px;
+ }
+ .youxiaa
+ {
+ 	float: right;
+ 	width: 150px;
+ 	
+ 
+ }
+ .youxiaa span
+ {
+ 	font:14px "Microsoft Yahei";
+ 	font-style: italic;
+ 	
+
+
+ }
+/* .youxiaa span
+ {
+ 	font:72px "Microsoft Yahei";
+ 	line-height: 72px;
+ 	color: #d45d5c;
+ 	border:1px solid yellow;
+ }*/
+ img[alt="1111"]
+ {  
+ 	
+ 	vertical-align: text-bottom;
+
+ 	
+ }
+img[alt="1231"]
+ {  vertical-align: text-bottom;
+ 	float: right;
+ }
+ .ling
+ { 
+ 	font:110px "黑体";
+ 	line-height: 110px;
+ 	border-right:2px solid white;
+ }
+ .sekuaiyou
+ {
+ 	float: right;
+ 	width: 165px;
+ }
+ .sekuai1
+ {
+ 	font-size: 21px;
+ 	font-family:"Microsoft Yahei";
+  	font-style: italic;
+ }
+ .sekuai2
+ {
+ 	font-size: 12px;
+ 	font-family: "Microsoft Yahei";
+ }
+/*/* footer部分**/
+footer
+{
+	border-top: 1px solid #938e8c;
+	height: 75px;
+}
+.mowei
+{
+	font:12px "Microsoft Yahei";
+	color: #d45d5c;
+	float: right;
+}
